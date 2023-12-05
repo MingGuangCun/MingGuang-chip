@@ -365,16 +365,18 @@ always @(posedge clk or negedge rst_n) begin
     else begin
         case (state)
             state0: begin
-            syn         <= 0     ;
-                if(init_general)begin
-                     state   <= state1;
-                     fft_ing <= 1     ;
-                 end 
-                 else begin
+                syn         <= 0     ;
+                case(init_general)
+                0:begin
                     state        <= state0;
                     stage        <= 1'd0  ;
                     fft_ing      <= 0     ;
-                 end
+                end
+                1:begin
+                    state   <= state1;
+                    fft_ing <= 1     ;
+                end
+                endcase
             end
             state1:begin
                 syn         <= 0     ;
