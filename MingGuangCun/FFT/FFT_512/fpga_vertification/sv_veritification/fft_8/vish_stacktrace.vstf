@@ -1,0 +1,31 @@
+# Current time Thu Apr 25 09:51:14 2024
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.4"
+# Version = "2014.12"
+# Date = "Dec  3 2014"
+# Platform = win64
+
+Exception c0000005 has occurred at address 1008669c. Traceback:
+# 0    0x1008669c: 'Tcl_UpdateLinkedVar + 0xdbc'
+# 1    0x100867cd: 'Tcl_NewListObj + 0x6d'
+# 2    0x10011927: 'Tcl_EvalObjv + 0xa7'
+# 3    0x10012e2b: 'TclEvalObjEx + 0x15b'
+# 4    0x10012cbd: 'Tcl_EvalObjEx + 0x1d'
+# 5    0x400906d6: '<unknown (@0x400906d6)>'
+# 6    0x400941d6: '<unknown (@0x400941d6)>'
+# 7    0x4009427c: '<unknown (@0x4009427c)>'
+# 8    0x4009450b: '<unknown (@0x4009450b)>'
+# 9    0x40094888: '<unknown (@0x40094888)>'
+# 10   0x100b9a1c: 'TclServiceIdle + 0x6c'
+# 11   0x100954c1: 'Tcl_DoOneEvent + 0x181'
+# 12   0x102e21a5: 'Tk_MainLoop + 0x25'
+# 13   0x102ae12b: 'Tk_MainEx + 0x91b'
+# 14   0x400e051b: 'Mtirpc_Init + 0x22aeb'
+# 15   0x400e2292: 'Mtirpc_Init + 0x24862'
+# 16   0x405a75f2: 'Sqlite_Unload + 0xb3492'
+# 17   0x88c4257d: 'BaseThreadInitThunk + 0x1d'
+# 18   0x8990aa58: 'RtlUserThreadStart + 0x28'
+StackWalk failed 0
+# End of Stack Trace
+

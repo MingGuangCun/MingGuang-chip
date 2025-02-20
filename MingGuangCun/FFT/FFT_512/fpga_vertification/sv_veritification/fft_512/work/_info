@@ -1,0 +1,403 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modelsim/modelsim/examples
+T_opt
+!s110 1707358267
+V1Nd:>F_4m8I`Cj;]Q:06[0
+Z1 04 10 4 work fft_512_tb fast 0
+=3-5c60ba5d1886-65c4383b-243-14b8
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z3 OL;O;10.4;61
+R0
+T_opt1
+!s110 1707838212
+V>MQdVSR:h=0XNA3WOPXb:2
+R1
+=8-5c60ba5d1886-65cb8b00-23c-5900
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1707927310
+VaPR6cOEe?:k`e5l6_TZn43
+R1
+=9-5c60ba5d1886-65cce70d-349-ad78
+R2
+n@_opt2
+R3
+R0
+T_opt3
+!s110 1714054911
+VRI38>aa]5TgkA8iK@;31b2
+R1
+=1-5c60ba5d1886-662a66ff-1e7-45b0
+o-quiet -auto_acc_if_foreign -work work
+n@_opt3
+R3
+vblk_mem
+Z4 !s110 1714054909
+!i10b 1
+!s100 b8Ai9@4>h7^R3>HiILei62
+I@mfZ;[QoiOE2jAG_5FFSE2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/fpga_vertification/sv_veritification/fft_512
+w1714050179
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/blk_mem.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/blk_mem.v
+L0 1
+Z7 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1714054909.666000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/blk_mem.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/blk_mem.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vbooth_crisp
+R4
+!i10b 1
+!s100 RgnZ_z=;;;WnhLjAben5B2
+IW7n;_@Jd@mQc6R@ZXm0XO3
+R5
+R6
+w1700014941
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/booth_crisp.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/booth_crisp.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1714054909.897000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/booth_crisp.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/booth_crisp.v|
+!i113 0
+R8
+vbram_ctrl
+Z9 !s110 1714054910
+!i10b 1
+!s100 m98=;3_NmL<foG`GdFhVK1
+IFViK?QOU?KmD0FWl;EzP32
+R5
+R6
+w1714050247
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/bram_ctrl.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/bram_ctrl.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1714054910.035000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/bram_ctrl.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/bram_ctrl.v|
+!i113 0
+R8
+vfft_512
+R9
+!i10b 1
+!s100 _2HgWjNiWWVS^0TR5S04L1
+I8oLSzR5MCaOATJ7Qg1Eg@3
+R5
+R6
+w1714050645
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512.v
+Z10 FE:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\fft_header.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1714054910.672000
+!s107 E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\fft_header.v|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512.v|
+!i113 0
+R8
+vfft_512_tb
+Z11 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z12 DXx6 mtiUvm 7 uvm_pkg 0 22 02@e1POGTiN=><];7MkU?0
+Z13 DXx4 work 18 fft_512_tb_sv_unit 0 22 jVd6b@BMzY]jKE4BPiAem1
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 JS<h0kkVhPceifzc3kfWQ1
+IWC1R5bgBN9A<U7iW5nBbQ2
+Z14 !s105 fft_512_tb_sv_unit
+S1
+R6
+Z15 w1714051010
+Z16 8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512_tb.sv
+Z17 FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512_tb.sv
+L0 8
+R7
+Z18 !s108 1714054910.800000
+Z19 !s107 E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_driver.sv|E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_transaction.sv|E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_if.sv|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512_tb.sv|
+Z20 !s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_512_tb.sv|
+!i113 0
+R8
+Xfft_512_tb_sv_unit
+R11
+R12
+VjVd6b@BMzY]jKE4BPiAem1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :N7:<lV`?W@niaaWoX<N<3
+IjVd6b@BMzY]jKE4BPiAem1
+!i103 1
+S1
+R6
+R15
+R16
+R17
+Z21 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z22 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z23 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z24 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z25 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z26 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z27 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z28 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z29 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z30 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z31 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z32 FC:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Z33 FE:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_if.sv
+Z34 FE:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_transaction.sv
+FE:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_driver.sv
+L0 3
+R7
+R18
+R19
+R20
+!i113 0
+R8
+vfft_8
+R9
+!i10b 1
+!s100 bY3X?8RRhdJ3n16gOJknB1
+IB@WTXM1YR1[=_^TA@`AiH0
+R5
+R6
+w1714050490
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_8.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_8.v
+R10
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1714054910.290000
+!s107 E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\fft_header.v|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_8.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_8.v|
+!i113 0
+R8
+vfft_top
+R9
+!i10b 1
+!s100 71FdeUhYE_BjBheYmcIgU0
+INFg]z3[LgQMLKClHC`BlI0
+R5
+R6
+w1714054672
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_top.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_top.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1714054910.549000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_top.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/fft_top.v|
+!i113 0
+R8
+Xmy_driver_sv_unit
+R11
+R12
+V`I4SDm3g7eC@Om4_Giaza2
+r1
+!s85 0
+31
+!i10b 1
+!s100 feH0VlK@OVGEK:=F<o`UV0
+I`I4SDm3g7eC@Om4_Giaza2
+!i103 1
+S1
+R6
+w1714050831
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_driver.sv
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_driver.sv
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+L0 4
+R7
+!s108 1714054908.646000
+!s107 E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_transaction.sv|E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_if.sv|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_driver.sv|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_driver.sv|
+!i113 0
+Z35 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L mtiRnm -L infact
+Ymy_if
+R11
+R12
+R13
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 oamEf6BJ8Z@QkJ>CKQS@a0
+IcJenY`CSUK`I6cNWP7_[:3
+R14
+S1
+R6
+Z36 w1714049939
+8E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\my_if.sv
+R33
+L0 5
+R7
+R18
+R19
+R20
+!i113 0
+R8
+Xmy_if_sv_unit
+R11
+R12
+Vg^>VLCSz4CeT[>^NJd?1;3
+r1
+!s85 0
+31
+!i10b 1
+!s100 k56iBHTeN@ZTmOZLW5bPd0
+Ig^>VLCSz4CeT[>^NJd?1;3
+!i103 1
+S1
+R6
+R36
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_if.sv
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_if.sv
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+L0 4
+R7
+!s108 1714054909.034000
+!s107 C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_if.sv|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_if.sv|
+!i113 0
+R35
+Xmy_transaction_sv_unit
+R11
+R12
+R4
+!i10b 1
+!s100 BHe62k`?16cQNFM_hl8=m3
+IfYVjC`9_NF28dOGcf?gQm2
+VfYVjC`9_NF28dOGcf?gQm2
+!i103 1
+S1
+R6
+w1714050062
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_transaction.sv
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_transaction.sv
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+L0 4
+R7
+r1
+!s85 0
+31
+!s108 1714054909.388000
+!s107 C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/modelsim/modelsim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_transaction.sv|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/my_transaction.sv|
+!i113 0
+R35
+vrotation_factor_512
+R9
+!i10b 1
+!s100 6kMkQe1=_??h:e_KcN_3i2
+IF<7[MRIVKg`Z5QGFoUhJZ1
+R5
+R6
+w1714050540
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/rotator_factor_512.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/rotator_factor_512.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1714054910.407000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/rotator_factor_512.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/rotator_factor_512.v|
+!i113 0
+R8
+vTF
+R9
+!i10b 1
+!s100 C<mS;WfPYGJgN@=6H<WYR0
+IAW[n92TE;FcY1`65_abkL2
+R5
+R6
+w1714050532
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/TF.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/TF.v
+R10
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1714054910.175000
+!s107 E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\uvm_veritification\fft_header.v|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/TF.v|
+!s90 -reportprogress|300|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/uvm_veritification/TF.v|
+!i113 0
+R8
+n@t@f

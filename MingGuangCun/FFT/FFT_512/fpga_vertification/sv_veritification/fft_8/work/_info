@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modelsim/modelsim/examples
+T_opt
+!s110 1714009804
+VheH?VI;GaLglHI[2S[idI3
+Z1 04 8 4 work fft_8_tb fast 0
+=1-5c60ba5d1886-6629b6c9-3d0-126c
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1714009993
+V][Zz3N^cB]Km4BXmK];750
+R1
+=1-5c60ba5d1886-6629b789-233-675c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R2
+vbooth_crisp
+Z3 !s110 1714009772
+!i10b 1
+!s100 RgnZ_z=;;;WnhLjAben5B2
+ILkboHmNAnSEk3ozJYOJ=?1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/fpga_vertification/sv_veritification/fft_8
+w1700014941
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v
+L0 1
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1714009772.798000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfft_8
+!s110 1714009987
+!i10b 1
+!s100 T[ZgcmK?L2Ac^cbIJ_hn[1
+IkEVF4E^4PkX@=?Kk7XzlU2
+R4
+R5
+w1713007911
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1714009987.606000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v|
+!s90 -reportprogress|300|-work|work|-vopt|-cover|sbce3|-stats=none|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v|
+!i113 0
+Z8 !s102 -cover sbce3
+o-work work -cover sbce3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfft_8_tb
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R3
+!i10b 1
+!s100 YU48^Bk[7cSl:o]AYa[[50
+I0lF=5Rl0=bZHZGDNYdY0?0
+R4
+!s105 fft_8_tb_sv_unit
+S1
+R5
+w1713856325
+8E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\fft_8_tb.sv
+FE:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\fft_8_tb.sv
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1714009772.568000
+!s107 E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\fft_8_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-cover|sbce3|-stats=none|E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\fft_8_tb.sv|
+!i113 0
+R8
+o-work work -sv -cover sbce3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vTF
+R3
+!i10b 1
+!s100 B9Z4L<kiY5<BzcXH4eZbU0
+I42`2AFo6nAl?>]]KeRSM_2
+R4
+R5
+w1703664690
+8E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v
+FE:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1714009772.684000
+!s107 E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v|
+!i113 0
+R7
+n@t@f

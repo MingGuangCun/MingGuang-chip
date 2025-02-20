@@ -1,0 +1,1 @@
+cmd_/home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/xdma.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/xdma.ko /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/xdma.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/xdma.mod.o;  true

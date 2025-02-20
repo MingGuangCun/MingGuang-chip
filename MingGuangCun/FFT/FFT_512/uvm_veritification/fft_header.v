@@ -1,0 +1,8 @@
+`define DATA_WIDTH 28
+`define W_WIDTH 16
+`define RAM_DATA_WIDTH 256
+`define RAM_ADDR_WIDTH 11
+`define FFT_ANS_WIDTH 32 
+`define BORDER_ADDR 8'd128
+`define TF_ANS_WIDTH (`DATA_WIDTH+`W_WIDTH)
+`define X_WIDTH 32

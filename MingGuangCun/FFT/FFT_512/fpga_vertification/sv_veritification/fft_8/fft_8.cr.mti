@@ -1,0 +1,29 @@
+{E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v} {1 {vlog -work work -vopt -cover sbce3 -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_8
+
+Top level modules:
+	fft_8
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v} {1 {vlog -work work -vopt -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module booth_crisp
+
+Top level modules:
+	booth_crisp
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/fft_8_tb.sv} {1 {vlog -work work -vopt -sv -cover sbce3 -stats=none {E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\fft_8_tb.sv}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_8_tb
+
+Top level modules:
+	fft_8_tb
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v} {1 {vlog -work work -vopt -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module TF
+
+Top level modules:
+	TF
+
+} {} {}}

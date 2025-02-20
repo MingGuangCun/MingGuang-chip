@@ -1,0 +1,43 @@
+{E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v} {1 {vlog -work work -vopt -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_8.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_8
+
+Top level modules:
+	fft_8
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_512.v} {1 {vlog -work work -vopt -stats=none {E:\study stuff\riscv_coprocessor\MingGuangCun-baseband_chip\MingGuangCun\FFT\FFT_512\src\fft_512.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_512
+
+Top level modules:
+	fft_512
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_512_tb.v} {1 {vlog -work work -vopt -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/fft_512_tb.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_512_tb
+
+Top level modules:
+	fft_512_tb
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v} {1 {vlog -work work -vopt -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/booth_crisp.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module booth_crisp
+
+Top level modules:
+	booth_crisp
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/rotation_factor_4096.v} {1 {vlog -work work -vopt -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/rotation_factor_4096.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module rotation_factor_4096
+
+Top level modules:
+	rotation_factor_4096
+
+} {} {}} {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v} {1 {vlog -work work -vopt -stats=none {E:/study stuff/riscv_coprocessor/MingGuangCun-baseband_chip/MingGuangCun/FFT/FFT_512/src/TF.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module TF
+
+Top level modules:
+	TF
+
+} {} {}}
