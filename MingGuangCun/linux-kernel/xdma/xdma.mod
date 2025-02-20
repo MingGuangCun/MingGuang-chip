@@ -1,2 +1,9 @@
-/home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/libxdma.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/xdma_cdev.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/cdev_ctrl.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/cdev_events.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/cdev_sgdma.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/cdev_xvc.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/cdev_bypass.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/xdma_mod.o /home/g/fpga/pcie/ldpc/oai_pcie/oai/linux-kernel/xdma/xdma_thread.o
-
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/libxdma.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/xdma_cdev.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/cdev_ctrl.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/cdev_events.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/cdev_sgdma.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/cdev_xvc.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/cdev_bypass.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/xdma_mod.o
+/home/g/Desktop/MingGuang-chip/MingGuangCun/linux-kernel/xdma/xdma_thread.o

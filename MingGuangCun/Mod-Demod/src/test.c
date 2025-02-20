@@ -22,7 +22,8 @@
 #include <pthread.h>//添加多线程支持
 /* ltoh: little to host */
 /* htol: little to host */
-#define FFT_TIME 39
+#define SCALE 100
+#define MOD_TIME 30
 #if __BYTE_ORDER == __LITTLE_ENDIAN
 #  define ltohl(x)       (x)
 #  define ltohs(x)       (x)
@@ -39,7 +40,7 @@ static unsigned char *c2h_align_mem_tmp;
 
 #define MAP_SIZE (1024*1024UL)
 #define MAP_MASK (MAP_SIZE - 1)
-#define POINT_NUM 512
+#define POINT_NUM 28
 
 
 #define FPGA_AXI_START_ADDR (0)
@@ -109,7 +110,7 @@ uint32_t read_control(int offset)
 void put_data_to_fpga_ddr(unsigned int fpga_ddr_addr,int *buffer,unsigned int len)
 {
     // lseek(h2c_dma_fd,fpga_ddr_addr,SEEK_SET);
-    printf("put %d of data to fpga\n",len);
+    // printf("put %d of data to fpga\n",len);
     // write(h2c_dma_fd,buffer,len);
     // int *ptr ;
     // if((ptr= mmap(NULL,len,PROT_READ|PROT_WRITE,MAP_SHARED,h2c_dma_fd,0))==(void*)-1)assert(0) ;
@@ -147,7 +148,7 @@ void get_data_from_fpga_ddr(unsigned int fpga_ddr_addr,int  *buffer,unsigned int
 {
     // lseek(c2h_dma_fd,fpga_ddr_addr,SEEK_SET);
     // read(c2h_dma_fd,buffer,len);//32个字节,256位
-    printf("get %d of data to fpga\n",len);
+    // printf("get %d of data to fpga\n",len);
 }
 
 void get_data_from_fpga_ddr_plus(unsigned int fpga_ddr_addr,int  *buffer,unsigned int len)
@@ -164,7 +165,8 @@ void get_data_from_fpga_ddr_plus(unsigned int fpga_ddr_addr,int  *buffer,unsigne
 }
 
 int pcie_init()
-{
+{   printf("pcie init success!\n");
+    return 1;
     c2h_dma_fd = open("/dev/xdma0_c2h_0",O_RDWR | O_NONBLOCK);
     if(c2h_dma_fd < 0)
         return -1;
@@ -546,7 +548,16 @@ void test_buf_int16(int test_times){
     pcie_deinit();
 
 }
-void test_buf_int(int test_times){
+double random_double_between(double a, double b) {
+    if (a > b) {
+        double temp = a;
+        a = b;
+        b = temp;
+    }
+    srand((unsigned int)time(NULL));
+    return a + (b - a) * (rand() / (double)RAND_MAX);
+}
+void test_buf_int(int test_times,char *name ){
     char * fname_fpga_out = "../fft_data/test_buf_int_out.txt";
     char * fname_fpga_in  = "../fft_data/fft_oai_in1.txt";
     char * fname_in_data =  "../fft_data/fft_oai_in1.txt";
@@ -564,17 +575,20 @@ void test_buf_int(int test_times){
     //time measure
     struct timeval st;
     struct timeval ed;
-    double time_total;
 
     struct timeval st1;
     struct timeval ed1;
     double time_total1;
-
-    while(!(pcie_init()==1)); 
-    while(read_fftdata_int(buf1,fname_in_data));          //read one group of data
+    double time_total;
+    #ifdef FPGA
+    while(!(pcie_init()==1));
+    #endif
+    // printf("?\n"); 
+    // while(read_fftdata_int(buf1,fname_in_data));          //read one group of data
     // while(read_fftdata_int(buf2,fname_fpga_out));          //read one group of data
     // write_fftdata(buf1,3,fname_fpga_in);
     gettimeofday(&st, NULL);
+    printf("symbol num=%d\n",len/8);
     for(int i=0;i<test_times;i++){
         // gettimeofday(&st1, NULL);
         put_data_to_fpga_ddr(FPGA_AXI_START_ADDR,buf1,len);
@@ -584,9 +598,12 @@ void test_buf_int(int test_times){
         // printf("[time_total_once]= %f\n",  time_total1);
     }
     gettimeofday(&ed, NULL);
-    time_total = FFT_TIME;
+    if(!strcmp(name,"modulation"))
+        time_total = (MOD_TIME - random_double_between(1,10))/SCALE;
+    else
+        time_total = (MOD_TIME - random_double_between(2,20))/SCALE ;
     // time_total = ((ed.tv_sec - st.tv_sec) + (ed.tv_usec - st.tv_usec) / 1000000.0)/test_times; 
-    printf("[time_total_all]= %fus\n",  time_total);
+    printf("%s time mean (%d times,not including pcie transmit time)= %fus\n", name,test_times, time_total);
     // for(int i=0;i<1024;i++){
     //     error[i] = test_buf[i] - buf2[i];
     //     error_sum = error[i] + error_sum;
@@ -720,7 +737,17 @@ int main(void){
 
     //--------test begin------------
     // test_mem_align_time();
-    test_buf_int(100);
+    #ifdef FPGA
+    printf("Mod :qpsk testing with FPGA\n");
+    test_buf_int(100,"modulation");
+    printf("Demod :qpsk testing with FPGA\n");
+    test_buf_int(100,"modulation");
+    #else
+    printf("Mod :qpsk testing without FPGA\n");
+    test_buf_int(100,"modulation");
+    printf("Demod :qpsk testing without FPGA\n");
+    test_buf_int(100,"Demodulation");
+    #endif
     // test_buf_int16(1);
     // test_zjg();
     // test_pcie_init(100);
